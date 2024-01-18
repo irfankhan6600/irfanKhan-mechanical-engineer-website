@@ -1,0 +1,262 @@
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 80vh;
+    margin-bottom: 6rem;
+  }
+
+  .profile__pic-container {
+    height: 45vh;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #strength,
+  .strength-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width:  275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .profile__pic-container {
+    height: 50vh;
+  }
+
+  #strength {
+    height: 110vh;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  #strength {
+    height: 90vh;
+    margin-bottom: 0;
+  }
+
+  #profile{
+    height: auto;
+  }
+
+  /* #profile .profile__pic-container img {
+    width: 40%; 
+    height: auto;
+  } */
+  .profile__pic-container {
+    width: 100%; 
+    height: auto;
+    justify-content: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 60vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  #strength {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #strength {
+    height: 370vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 1;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .strength-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 60vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #profile .profile__pic-container img {
+    width: 60%; 
+    height: auto;
+  }
+  #profile .profile__pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  #profile{
+    height: auto;
+  }
+  #strength{
+    height: auto;
+  }
+}
+
+#profile .profile__pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1030px) {
+
+  .modal-content {
+    width: auto; /* Adjust the width for mobile screens */
+    height: auto; /* Adjust the height for mobile screens */
+  }
+  #myModal .modal-content iframe {
+    width: 800px; /* Adjust the width for mobile screens */
+    height: 500px; /* Adjust the height for mobile screens */
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  .modal-content {
+    width: auto; /* Adjust the width for mobile screens */
+    height: auto; /* Adjust the height for mobile screens */
+  }
+  #myModal .modal-content iframe {
+    width: 450px; /* Adjust the width for mobile screens */
+    height: 300px; /* Adjust the height for mobile screens */
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .modal-content {
+    width: auto; /* Adjust the width for mobile screens */
+    height: auto; /* Adjust the height for mobile screens */
+  }
+  #myModal .modal-content iframe {
+    width: 350px; /* Adjust the width for mobile screens */
+    height: 250px; /* Adjust the height for mobile screens */
+  }
+
+  #strength {
+    height: 220vh;
+    margin-bottom: 0;
+  }
+
+  #profile .profile__pic-container img {
+    width: 45%;
+    height: auto;
+  }
+
+  .profile__pic-container{
+    height: 290px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+
+  #strength {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  #profile .profile__pic-container img {
+    width: 60%;
+    height: auto;
+  }
+
+  .profile__pic-container{
+    height: 50%;
+  }
+
+  #profile{
+    height: 650px
+  }
+}
+
+#strength {
+  height: auto;
+  margin-bottom: 0;
+}

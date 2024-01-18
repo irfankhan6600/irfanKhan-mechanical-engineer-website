@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Md Irfan Khan</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#strength">Strength</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Md Irfan Khan</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#strength" onclick="toggleMenu()">Strength</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    <section id="profile">
+      <div class="profile__pic-container">
+        <img src="./assets/profile-pic.png" alt="Md Irfan Khan profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Md Irfan Khan</h1>
+        <p class="section__text__p2">Mechanical Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_of_Md Irfan Khan_2023.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/irfankhan-aust/', '_blank')"
+          />
+          <img
+          src="./assets/google_scholar.png"
+          alt="My Google Scholar profile"
+          class="icon"
+          onclick="window.open('https://scholar.google.com/citations?user=3EagttAAAAAJ&hl=en', '_blank')"
+        />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/irfankhan6600/', '_blank')"
+          />
+         
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>7+ years <br />Mechanical Engineering</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. in Mechanical Engineering <br />M.Sc. in Mechanical Engineering (Ongoing)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am Md Irfan Khan, a mechanical engineer with a proven track 
+              record in problem-solving and action-oriented behavior. I am
+              deeply passionate about innovation. 
+            </p>
+            <p style="margin-top: 1em;">
+              I have professional working experience in mechanical design, 
+              prototyping, simulation,and testing of consumer electronic products. 
+
+              As a designer, I always aim for simplicity and firmly believe that 
+              good design adds value and optimism to people’s lives. To me, nature 
+              is a great source of concepts.
+              
+              In my perspective, with resilience and hard work, every challenge is 
+              but a puzzle waiting to be solved.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#strength'"
+      />
+    </section>
+    <section id="strength">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Strength</h1>
+      <div class="strength-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="strength-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Strength icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Solid Works</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Strength icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Autocad</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Fusion 360</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CATIA V5</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>KeyShot</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SolidCAM</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HSMWorks</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ANSYS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CMG</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tecnomatix</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pnflow</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MATLAB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ms Office</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Certification-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="strength-sub-title">Certifications</h2>
+            <div class="certifications-container">
+              <article>
+                <img
+                  src="./assets/certification.png"
+                  alt="certification icon"
+                  class="C_icon"
+                />
+                <div>
+                  <h3>Mechanical Design at the Level of Professional</h3>
+                  <p>Issuing Organization: Dassault Systems</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/certification.png"
+                  alt="certification icon"
+                  class="C_icon"
+                />
+                <div>
+                  <h3>Additive Manufacturing at the Level of Associate</h3>
+                  <p>Issuing Organization: Dassault Systems</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/certification.png"
+                  alt="certification icon"
+                  class="C_icon"
+                />
+                <div>
+                  <h3>Six Sigma Foundations</h3>
+                  <p>Issuing Organization: Coursera</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/certification.png"
+                  alt="certification icon"
+                  class="C_icon"
+                />
+                <div>
+                  <h3>The Elements of AI</h3>
+                  <p>Issuing Organization: University of Helsinki</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Project 1 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/mechanical_design.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Mechanical Design</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="openModal('https://docs.google.com/presentation/d/e/2PACX-1vQYQaMkIYvmpE1L8LrVIBj9sstfx6_Im9tsEXIYoCBEwzHeFTTzQkdrfHwY8JqWTA/embed?start=false&loop=false&delayms=3000')">
+                Click for details
+              </button>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/published_work.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Published Works</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://scholar.google.com/citations?user=3EagttAAAAAJ&hl=en', '_blank')">
+                Click for details
+              </button>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/machine_learning.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Other Projects</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="openModal('https://github.com/')">
+                Click for details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <p>Modal content goes here...</p>
+      </div>
+    </div>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:irfankhan.aust@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/irfankhan-aust/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Strength</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Md Irfan Khan. All Rights Reserved.</p>
+    </footer>
+    <script>
+      // Function to open the modal with enlarged iframe
+      function openModal(iframeSrc) {
+        var modal = document.getElementById('myModal');
+        modal.style.display = 'flex';
+        // Update modal content with the enlarged iframe
+        modal.querySelector('p').innerHTML = '<iframe src="' + iframeSrc + '" frameborder="0" width="1000px" height="600px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+      }
+    
+      // Function to close the modal
+      function closeModal() {
+        var modal = document.getElementById('myModal');
+        modal.style.display = 'none';
+      }
+    
+      // Close modal if clicked outside the content
+      window.onclick = function(event) {
+        var modal = document.getElementById('myModal');
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      };
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+
