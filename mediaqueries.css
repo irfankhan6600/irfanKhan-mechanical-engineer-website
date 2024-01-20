@@ -1,19 +1,31 @@
-
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 80vh;
+    /* height: 80vh; */
     margin-bottom: 6rem;
   }
 
-  .profile__pic-container {
+  /* .profile__pic-container {
     height: 45vh;
-  }
+  } */
   .about-containers {
     flex-wrap: wrap;
   }
   #contact,
   #projects {
     height: fit-content;
+  }
+  #profile{
+    height: auto;
+  }
+
+  /* #profile .profile__pic-container img {
+    width: 40%; 
+    height: auto;
+  } */
+  .profile__pic-container {
+    width: 100%; 
+    height: auto;
+    justify-content: center;
   }
 }
 
@@ -60,6 +72,19 @@
   #strength {
     height: 110vh;
     margin-bottom: 0;
+  }
+  #profile{
+    height: auto;
+  }
+
+  /* #profile .profile__pic-container img {
+    width: 40%; 
+    height: auto;
+  } */
+  .profile__pic-container {
+    width: 100%; 
+    height: auto;
+    justify-content: center;
   }
 }
 
